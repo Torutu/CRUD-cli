@@ -9,3 +9,26 @@ A simple and efficient CRUD application built with Go, designed specifically to 
 - Basic file operations for data persistence
 
 Building this app was a great way to strengthen my understanding of Go by creating a real-world command-line tool.
+
+Build
+`
+make         # builds for Windows by default
+`
+`
+make linux   # build for Linux
+`
+`
+make mac     # build for macOS
+`
+`
+make windows # build for Windows
+`
+
+Run if you have go
+```bash
+make run
+```
+Clean build files
+```
+make clean
+```
