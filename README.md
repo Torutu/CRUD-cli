@@ -10,19 +10,29 @@ A simple and efficient CRUD application built with Go, designed specifically to 
 
 Building this app was a great way to strengthen my understanding of Go by creating a real-world command-line tool.
 
-Build
-`
-make         # builds for Windows by default
-`
-`
-make linux   # build for Linux
-`
-`
-make mac     # build for macOS
-`
-`
-make windows # build for Windows
-`
+Build for Windows by default
+
+```
+make
+```
+
+For Linux:
+
+```
+make linux
+```
+
+For Mac:
+
+```
+make mac
+```
+
+For Windows:
+
+```
+make windows
+```
 
 Run if you have go
 ```bash
